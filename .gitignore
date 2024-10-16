@@ -1,0 +1,5 @@
+/vendor/
+/src/
+phpcs.xml.dist
+composer.lock
+composer.json
