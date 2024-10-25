@@ -23,7 +23,7 @@ define( 'JET_SMART_FILTERS_DEFAULT_WC_ARCHIVE_PROVIDER_NAME', 'Default WooCommer
 add_action( 'jet-smart-filters/providers/register', function ( $providers_manager ) {
 	$providers_manager->register_provider(
 		'Jet_Smart_Filters_Default_WC_Archive_Provider',
-		JET_SMART_FILTERS_DEFAULT_WC_ARCHIVE_PROVIDER_PATH . 'includes/providers/jet_smart_filters_default_wc_archive_provider.php'
+		JET_SMART_FILTERS_DEFAULT_WC_ARCHIVE_PROVIDER_PATH . 'includes/providers/default-wc-archive-provider.php'
 	);
 } );
 
